@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>Initio - Free, multipurpose html5 template</title>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="images/logo.png" alt="">
+			<span class="title">Welcome to Luca's Loaves</span>
+	
+		</h1>
+	</div>
+
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="upload.html">Careers </a></li>
+					<li><a href="orderonline.php">Order online</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+					<li><a href="register1.php">Register</a></li>
+				</ul>
+			
+			</div><!--/.nav-collapse -->			
+		</div>	
+	</nav>
+</header>
+
+
+<div id="welcome" class="container">
+    <div class="title">
+        <h2>Join our team</h2>
+        <p> We are expanding our branches and need experienced baker regularly.</n>
+            Send us your detail with the form below</br>
+        and we will be in contact shortly</p>
+
+        <div id="wrapper">
+        <form action="file_upload.php" method="POST"
+    enctype="multipart/form-data">
+
+
+ 
+<label for="name">First name:</label>
+<input type="text" id="name" name="name"/><br>
+<label for="email">Last name:</label>
+<input type="text" id="email"name="email" /><br>
+<label for="telephone">Email Address:</label>
+<input type="text" id="telephone" name="telephone"/><br>
+<label for="message">Work experience</label>
+<textarea name="message" id="message" cols="30" rows="10"></textarea><br />
+<p>
+    Select files to upload:
+     
+    <!-- name of the input fields are going to
+        be used in our php script-->
+    <input type="file" name="files[]" multiple><br>
+    <input type="file" name="files[]" multiple>
+    <br><br>
+     
+    <input type="submit" name="submit" value="Upload" >
+</p>
+
+</form>
+
+    </div>
+    
+        </div>
+        
+        </div>
+
+
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+		
+						<a href="mailto:#">15565156@qq.com</a><br>
+						<br>
+						English name:Lay
+					</p>	
+					<p>
+						<br>
+						Chinese name:LiangAnyuan
+					</p>	
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<a href=""><i class="fa fa-twitter fa-2"></i></a>
+						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+						<a href=""><i class="fa fa-github fa-2"></i></a>
+						<a href=""><i class="fa fa-facebook fa-2"></i></a>
+					</p>
+				</div>
+			</div>
+
+
+
+
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Student ID :203190632</p>
+				</div>
+			</div>
+
+
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
+</html>
